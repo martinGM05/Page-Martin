@@ -1,17 +1,16 @@
-import * as Scroll from 'react-scroll';
-import { Link as LinkScroll, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import Work from '../Work/Work';
+import Lottie from "lottie-react";
+import ScrollAnimation from "../../../../assets/75527-pink-down-arrow.json";
 
 
 const Hero = () => {
     return (
         <>
-            <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-15 w-full">
+            <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-15 w-full mb-10">
                 <div className="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
                     <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Full Stack<br /> developer.</h1>
                     <p className="text-center md:text-left text-lg md:text-xl lg:text-2xl mt-4 md:mt-3">I build web applications and mobile apps.</p>
                     <div className="w-full flex justify-center md:justify-start">
-                        <button className="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
+                        <button className="px-8 py-4 bg-tertiary text-white font-bold mt-12 flex items-center space-x-3">
                             <div>
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -28,10 +27,15 @@ const Hero = () => {
                     </div>
                     {/* <img src="img/man.png" alt="Man" className="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1"> */}
                 </div>
+                <div className="w-20 fixed bottom-10 right-10">
+                    <Lottie
+                        animationData={ScrollAnimation}
+                        width={100}
+                        height={100}
+                        loop={true}
+                    />
+                </div>
             </div>
-            <Element name="work" className="py-12">
-                <Work />
-            </Element>
         </>
     )
 }

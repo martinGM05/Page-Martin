@@ -10,6 +10,7 @@ module.exports = {
         'theme': '#3F3FFF',
         'nav': '#404053',
         'secondary': '#9191a4',
+        'tertiary': '#d35fc8',
         'badge': '#3F3F51',
         'input-border': '#565666',
         'input': '#2A2A35',

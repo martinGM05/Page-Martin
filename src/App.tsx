@@ -3,13 +3,14 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import Hero from './lib/components/Home/Hero/Hero'
 import Layout from './lib/layout/Layout'
 import BlogScreen from './lib/screens/Blog/BlogScreen'
+import HomeScreen from './lib/screens/Home/HomeScreen'
 
 const App = () => {
   return (
     <BrowserRouter>     
       <Routes>
         <Route path='/' element={<Layout />}>
-          <Route index element={<Hero />} />
+          <Route index element={<HomeScreen/>} />
           <Route path='blog' element={<BlogScreen />} />
         </Route>
       </Routes>
