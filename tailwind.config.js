@@ -14,6 +14,13 @@ module.exports = {
         'badge': '#3F3F51',
         'input-border': '#565666',
         'input': '#2A2A35',
+        'html': '#f08922',
+        'css': '#2d89dd',
+        'javascript': '#f0db4f',
+        'react': '#61dafb',
+        'vue': '#41b883',
+        'angular': '#dd0031',
+        'tailwind': '#3F3FFF',
       },
       fontFamily: {
         'poppins': ["'Poppins'", 'sans-serif'],

@@ -2,7 +2,11 @@ import React from 'react'
 
 const BlogScreen = () => {
   return (
-    <div>BlogScreen</div>
+    <div className="flex flex-col p-28">
+        <div className="flex flex-col mt-20">
+            <p className="text-lg"> Coming soon...</p>
+        </div>
+    </div>
   )
 }
 
