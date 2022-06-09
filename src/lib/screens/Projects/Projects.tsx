@@ -15,7 +15,7 @@ const Projects = () => {
               <h3 className='text-2xl font-bold mb-5'> Pokedex </h3>
             </div>
             <a href='https://martingm05.github.io/Pokedex' target='_blank' rel='noopener noreferrer'>
-              <img src='src/lib/data/img/Projects/Pokedex.png' alt='Project'
+              <img src='../../data/img/Projects/Pokedex.png' alt='Project'
                 className='w-auto h-44 brightness-50 hover:brightness-100 transition ease-in-out duration-150' />
             </a>
             <div className='flex flex-row m-3 overflow-y-hidden w-full'>
