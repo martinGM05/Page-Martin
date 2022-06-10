@@ -16,7 +16,8 @@ const ProjectComponent = (project: projectsI) => {
                 <div className='flex flex-row m-3 overflow-y-hidden w-full'>
                     {
                         project.technologies.map((tech, index) => (
-                            <FontAwesomeIcon icon={tech.icon} key={index} className={'w-auto h-8 ml-3 text-gray-700 hover:text-' + tech.name + ' transition ease-in-out duration-150'} />
+                            <FontAwesomeIcon icon={tech.icon} key={index} 
+                            className={'w-auto h-8 ml-3 text-gray-700 hover:text-vue transition ease-in-out duration-150'} />
                         ))
                     }
                 </div>
