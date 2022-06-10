@@ -21,6 +21,7 @@ module.exports = {
         'vue': '#41b883',
         'angular': '#dd0031',
         'tailwind': '#3F3FFF',
+        'bootstrap': '#563d7c',
       },
       fontFamily: {
         'poppins': ["'Poppins'", 'sans-serif'],
