@@ -22,6 +22,7 @@ module.exports = {
         'angular': '#dd0031',
         'tailwind': '#3F3FFF',
         'bootstrap': '#563d7c',
+        'github': '#24292e',
       },
       fontFamily: {
         'poppins': ["'Poppins'", 'sans-serif'],

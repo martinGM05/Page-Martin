@@ -26,7 +26,7 @@ const Header = () => {
     }
 
     return (
-        <header className="py-6 fixed top-0 left-0 right-0 z-1 shadow-lg bg-body">
+        <header className="py-6 fixed top-0 left-0 right-0 z-10 shadow-lg bg-body">
             <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
                 <div className="text-lg font-bold">Martín González</div>
                 <div className="hidden md:flex space-x-12 items-center">

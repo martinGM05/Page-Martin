@@ -6,7 +6,8 @@ export interface projectsI {
     description: string;
     img: string;
     page: string;
-    technologies: iconsI[]
+    technologies: iconsI[];
+    repository: string;
 }
 
 interface iconsI {
@@ -35,7 +36,8 @@ export const projects: projectsI[] = [
                 icon: ['fab', 'js-square'],
                 name: 'javascript'
             }
-        ]
+        ],
+        repository: "https://github.com/martinGM05/Pokedex"
     },
     {
         id: "2",
@@ -56,7 +58,8 @@ export const projects: projectsI[] = [
                 icon: ['fab', 'js-square'],
                 name: 'javascript'
             }
-        ]
+        ],
+        repository: "https://gitlab.com/martinGM05/henry-cinemas"
     },
     {
         id: "3",
@@ -77,6 +80,57 @@ export const projects: projectsI[] = [
                 icon: ['fab', 'bootstrap'],
                 name: 'bootstrap'
             }
-        ]
+        ],
+        repository: "https://github.com/martinGM05/Pasteleria--Vue"
+    },
+    {
+        id: "4",
+        name: "Vacunación",
+        description: "Replica de una landing page de una aplicación de vacunación",
+        img: "https://firebasestorage.googleapis.com/v0/b/flutter-varios-d288a.appspot.com/o/Vacinnation.png?alt=media&token=35cff607-f3e2-4d44-bfca-c56fce387a53",
+        page: "https://martingm05.github.io/LaunchX-FrontEnd-Css/",
+        technologies: [
+            {
+                icon: ['fab', 'html5'],
+                name: 'html'
+            },
+            {
+                icon: ['fab', 'bootstrap'],
+                name: 'bootstrap'
+            }
+        ],
+        repository: "https://github.com/martinGM05/LaunchX-FrontEnd-Css"
+    },
+    {
+        id: "5",
+        name: "Clima",
+        description: "Aplicación que muestra el clima de una ciudad",
+        img: "https://firebasestorage.googleapis.com/v0/b/flutter-varios-d288a.appspot.com/o/Clima.png?alt=media&token=b2d15335-bb2d-4ba6-b6af-8b5c87b6fb12",
+        page: "https://clima-martin-react.netlify.app/",
+        technologies: [
+            {
+                icon: ['fab', 'react'],
+                name: 'react'
+            },
+            {
+                icon: ['fab', 'js-square'],
+                name: 'javascript'
+            }
+        ],
+        repository: "https://github.com/martinGM05/React-clima"
+    },
+    {
+        id: "6",
+        name: "Hagamoslo",
+        description: "Aplicación que conecta clientes con trabajadores",
+        img: "https://firebasestorage.googleapis.com/v0/b/flutter-varios-d288a.appspot.com/o/Hagamoslo.jpg?alt=media&token=81a58b3b-e7b8-42d8-ae92-9f6fd41742a5",
+        page: "https://www.youtube.com/watch?v=i9s706_Hb5I",
+        technologies: [
+            {
+                icon: ['fab', 'react'],
+                name: 'react'
+            },
+        ],
+        repository: "https://github.com/martinGM05/Hagamoslo-Cliente"
     }
 ]
